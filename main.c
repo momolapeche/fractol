@@ -6,7 +6,7 @@
 /*   By: rmenegau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/10/31 15:31:00 by rmenegau          #+#    #+#             */
-/*   Updated: 2016/11/01 10:06:42 by rmenegau         ###   ########.fr       */
+/*   Updated: 2016/11/02 11:43:31 by rmenegau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,7 @@ unsigned	calc_color(int it, int max, unsigned color1, unsigned color2)
 
 t_cmplx	mk_cmplx(double r, double i)
 {
+
 	t_cmplx	ret;
 
 	ret.r = r;
